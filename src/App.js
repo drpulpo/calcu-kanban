@@ -18,7 +18,9 @@ function App() {
     }
 
     const handleSuma=(event)=>{
-        setResultado(paramA + paramB)
+
+        setResultado(Number(paramA)+Number(paramB))
+
     }
     const handleResta=(event)=>{
         setResultado(paramA+' restado a ' +paramB)
